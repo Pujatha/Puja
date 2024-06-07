@@ -1,0 +1,275 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #EEA5A6;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(12px);
+    background-color: #252525;
+}
+header div h2 {
+    color: #3ABEF9;
+    font-family: "sevillana", cursive;
+}
+header div h2 span{
+    color: aliceblue;
+    font-family: "sevillana", cursive;
+    margin: 8px;
+}
+header div h2:hover{
+    color: blueviolet; 
+    
+
+}
+nav ul li{
+    font-family: "roboto", sans-serif;
+    display: inline-block;
+    padding: 10px;
+}
+
+nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color:peru;
+}
+
+button{
+    margin-right: 10px;
+    padding: 10px 32px;
+    border-radius: 12px;
+    background: none;
+    border: 1.5px solid green;
+    font-size: 15px;
+    color: aliceblue;
+}
+
+button:hover{
+    color:#D10363;
+}
+#body-button{
+    background-color: #D10363;
+    border: none;
+    padding: 12px 40px;
+    border-radius: 15px;
+}
+
+#body-button:hover{
+    color: gold;
+    background-color: #D10363;
+    opacity: 1;
+    border-radius: 20px;
+}
+.section1 {
+    display: flex;
+    justify-content: space-between;
+    height: 200hv;
+    align-items: center;
+    position: relative;
+    font-size: 20px;
+
+}
+
+#image{
+    width: 400px;
+    filter: drop-shadow(5px 5px 5px #252525);
+    
+}
+
+.section1 p{
+    color: #440fb8;
+    margin-left: 20px;
+    margin-right: 90px;
+    font-size: 50px;
+    font-family: "poppins", sans-serif;
+    margin-bottom: 25px;
+
+}
+.section1 span{
+    color: #b30c78;
+}
+
+.section1 {
+    color: blueviolet;
+    margin-left: 40PX;
+    font-size: 40PX;
+    
+}
+
+
+
+
+
+.section2{
+    height: 100hv;
+}
+
+.section2 h1{
+    color: rgb(38, 103, 223);
+    font-family: "poppins", sans-serif;
+    font-size: 30px;
+    border-bottom: 1.5px solid green;
+    width: fit-content;
+    position: relative;
+    left: 20px;
+    top: 40px;
+}
+
+.body-article{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.article1{
+    margin-top: 20px;
+    width: 240px;
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 2);
+    color:#3ABEF9;
+}
+
+.article1{
+    color: palevioletred;
+    font-family: "oxygen", sans-serif;
+    font-size: 23px;
+    color:aquamarine;
+
+}
+
+.article1 {
+    font-family: "oxygen", sans-serif;
+    font-size: 12px;
+    color: peru;
+    background-color: aqua;
+    color:black;
+    margin-bottom: 20px;
+    
+}
+
+.article1 h2{
+    color:#b30c78;
+}
+
+#element{
+    font-size: 50px;
+    color: #440fb8;
+
+}
+
+.footer{
+    background-color: rgb(8, 8, 61);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+#foooter-button{
+    color: #b30c78;
+    border: none;
+    padding: 10px 20px;
+    background: rgb(196, 242, 248);
+}
+
+.column1 ul li{
+    list-style-type: none;
+
+}
+
+.column1 ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: "oxygen", sans-serif;
+    font-size: 10px;
+    
+}
+
+.column1 ul li a:hover{
+    border-bottom: 1px solid white;
+
+}
+
+.column2 ul li{
+    list-style-type: none;
+}
+
+.column2 ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: "oxygen", sans-serif;
+    font-size: 10px;
+}
+
+.column2 ul li a:hover{
+    border-bottom: 1px solid white;
+}
+
+
+.column3 ul li{
+    list-style-type: none;
+}
+
+.column3 ul li a{
+    text-decoration: none;
+    color: rgb(248, 252, 255);
+    font-family: "oxygen", sans-serif;
+    font-size: 10px;
+    
+}
+.column3 ul li a:hover{
+    border-bottom: 1px solid white;
+}
+
+.column3{
+    position: relative;
+    top: -10px;
+}
+
+
+.footer-text{
+    color: aliceblue;
+    font-family: "oxygen", sans-serif;
+    font-size: 20px;
+
+}
+.footer-main-text{
+    font-size: 25px;
+}
+
+.footer-logo i{
+    padding: 9px;
+    color: rgb(112, 111, 111);
+}
+
+.footer-logo i:hover{
+    color: aliceblue;
+}
+
+#new-text{
+    color: #440fb8;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(8, 8, 61);
+    color:rgb(173, 211, 19);
+    font-family: oxygen;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 13px;
+}
